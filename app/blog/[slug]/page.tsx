@@ -1,6 +1,5 @@
 'use client'
 import { BlogPost } from "@/types/blog"
-import { error } from "console"
 import { useEffect, useState } from "react"
 
 export default function EachBlog({ params }: { params: { slug: string } }){
