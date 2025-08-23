@@ -53,6 +53,9 @@ export default function Header() {
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact
             </Link>
+            <Link href="/admin" className="bg-gray-800 text-gray-100 px-4 py-2 rounded-full text-sm">
+              Admin
+            </Link>
           </nav>
           
          
@@ -128,6 +131,9 @@ export default function Header() {
               </Link>
               <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors py-2">
                 Contact
+              </Link>
+              <Link href="/admin" className="bg-gray-800 text-gray-100 px-4 py-2 rounded-full text-sm w-fit">
+                Admin
               </Link>
             </div>
           </nav>
