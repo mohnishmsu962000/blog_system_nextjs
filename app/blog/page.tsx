@@ -6,6 +6,7 @@ import Link from "next/link"
 export default function BlogPage(){
 
     const [posts, setPosts] = useState<BlogPost[]>([])
+    
 
     useEffect(() => {
          async function getPosts() {
@@ -17,6 +18,8 @@ export default function BlogPage(){
     }
 
     getPosts()
+
+    
 
     }, [])
 
@@ -43,6 +46,14 @@ export default function BlogPage(){
                         <span className="mx-2">•</span>
                         <span className="bg-gray-100 px-2 py-1 rounded text-xs">{post.category}</span>
                     </div>
+                    </div>
+
+                     <div className="flex flex-wrap gap-2 mb-3">
+                        {post.tags && post.tags.map((tag) => (
+                            <span key={tag} className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
+                            #{tag}
+                            </span>
+                        ))}
                     </div>
                     
                     <p className="text-gray-700 leading-relaxed line-clamp-3">

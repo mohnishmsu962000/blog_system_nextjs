@@ -13,7 +13,8 @@ export const samplePosts: BlogPost[] = [
     seoTitle: 'Complete Next.js 14 Guide for Beginners',
     metaDescription: 'Learn Next.js 14 from scratch with this comprehensive tutorial covering App Router, SSR, and modern development practices.',
     heroImage: '/images/nextjs-guide.jpg',
-    heroImageAlt: 'Next.js logo with code in the background'
+    heroImageAlt: 'Next.js logo with code in the background',
+    tags: ['nextjs', 'react', 'tutorial', 'beginner']
   },
   {
     id: '2',
@@ -28,7 +29,8 @@ export const samplePosts: BlogPost[] = [
     metaDescription: 'Master TypeScript with these essential best practices for writing clean, maintainable code in 2024.',
     keywords: 'typescript, best practices, programming, javascript',
     heroImage: '/images/typescript-tips.jpg',
-    heroImageAlt: 'TypeScript code on a computer screen'
+    heroImageAlt: 'TypeScript code on a computer screen',
+    tags: ['typescript', 'javascript', 'best-practices', 'advanced']
   },
   {
     id: '3',
@@ -41,7 +43,8 @@ export const samplePosts: BlogPost[] = [
     category: 'CSS',
     metaDescription: 'Learn how to create beautiful responsive designs using Tailwind CSS mobile-first approach.',
     heroImage: '/images/responsive-design.jpg',
-    heroImageAlt: 'Multiple devices showing a responsive website'
+    heroImageAlt: 'Multiple devices showing a responsive website',
+    tags: ['typescript', 'javascript', 'best-practices', 'advanced']
   },
   {
     id: '4',
@@ -53,7 +56,8 @@ export const samplePosts: BlogPost[] = [
     publishedDate: '2024-01-12',
     category: 'JavaScript',
     seoTitle: 'JavaScript Async Programming Guide',
-    keywords: 'javascript, async, promises, async await'
+    keywords: 'javascript, async, promises, async await',
+    tags: ['typescript', 'javascript', 'best-practices', 'advanced']
   },
   {
     id: '5',
@@ -68,6 +72,7 @@ export const samplePosts: BlogPost[] = [
     metaDescription: 'Boost your website speed with proven performance optimization techniques and tools.',
     keywords: 'web performance, optimization, speed, seo',
     heroImage: '/images/performance-metrics.jpg',
-    heroImageAlt: 'Performance metrics dashboard showing improved scores'
+    heroImageAlt: 'Performance metrics dashboard showing improved scores',
+    tags: ['typescript', 'javascript', 'best-practices', 'advanced']
   }
 ]

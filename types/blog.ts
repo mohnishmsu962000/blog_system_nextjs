@@ -11,7 +11,8 @@ export interface BlogPost{
     metaDescription?: string,
     keywords?:string,
     heroImage?: string,
-    heroImageAlt?: string
+    heroImageAlt?: string,
+    tags?:string[]
 
 }
 
